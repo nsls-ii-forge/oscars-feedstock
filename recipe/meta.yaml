@@ -20,11 +20,11 @@ requirements:
     - python
     - pip
   run:
-    - scipy
+    - python
     - matplotlib
     - mpi4py
     - numpy
-    - python
+    - scipy
     - scipy
     
 test:
