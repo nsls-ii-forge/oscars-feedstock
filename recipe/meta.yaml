@@ -16,13 +16,15 @@ build:
   skip: True  # [py<36]
 
 requirements:
+  build:
+    - {{ compiler('cxx') }}  # [unix]
   host:
     - python
     - pip
   run:
     - python
     - matplotlib
-    - mpi4py
+    - mpi4py  # [not win]
     - numpy
     - scipy
     
