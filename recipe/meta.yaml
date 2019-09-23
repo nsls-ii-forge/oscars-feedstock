@@ -42,8 +42,3 @@ about:
   description: The OSCARS Package.
   doc_url: https://oscars.bnl.gov/doc.php
   dev_url: https://github.com/dhidas/OSCARS
-
-extra:
-  recipe-maintainers:
-    - dhidas
-    - hindsjr
